@@ -1,0 +1,11 @@
+%cama de raya,
+Longitud_tablero = 1370.000 #P1#
+Anchura__tablero = 503.000 #P2#
+Grosor___tablero = 24.000 #P3#
+PARINI 1 #x# #1370#
+PARINI 2 #y# #503#
+PARINI 3 #z# #24#<%
+cabecero.forEach((segmento)=>{
+%>
+CALCULO P1=1370;{X}P2=503;{Y}P3=24;{Z}P11=<%=format4(segmento.p1.x)%>;{DESDE X}P12=<%=format4(segmento.p1.y)%>;{DESDE Y}P13=<%=format4(segmento.p2.x)%>;{HASTA X}P14=<%=format4(segmento.p2.y)%>;{HASTA Y}P15=6;{PROFUNDIDAD}#
+CICLO_USU medios\jesus\cama\rayas\raya<%})%>

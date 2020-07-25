@@ -1,0 +1,11 @@
+%cama de raya,
+Longitud_tablero = <%=cajonSpec.x%> #P1#
+Anchura__tablero = <%=cajonSpec.y%> #P2#
+Grosor___tablero = <%=cajonSpec.z%> #P3#
+PARINI 1 #x# #1370#
+PARINI 2 #y# #503#
+PARINI 3 #z# #24#<%
+segmentos.forEach((segmento)=>{
+%>
+CALCULO P1=<%=cajonSpec.x%>;{X}P2=<%=cajonSpec.y%>;{Y}P3=<%=cajonSpec.z%>;{Z}P11=<%=format4(segmento.p1.x)%>;{DESDE X}P12=<%=format4(segmento.p1.y)%>;{DESDE Y}P13=<%=format4(segmento.p2.x)%>;{HASTA X}P14=<%=format4(segmento.p2.y)%>;{HASTA Y}P15=<%=profundidad%>;{PROFUNDIDAD}#
+CICLO_USU medios\jesus\cama\rayas\raya<%})%>
